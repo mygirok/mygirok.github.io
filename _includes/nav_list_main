@@ -8,7 +8,7 @@
           <ul>        
               <li><a href="https://mygirok.github.io/">All posts ({{sum}})</a></li>   
           </ul>
-        <span class="nav__sub-title">Linux</span>
+       
             <ul>
                 {% for category in site.categories %}
                 
