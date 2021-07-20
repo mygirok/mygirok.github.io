@@ -1,5 +1,5 @@
 ---
-title: "linux"
+title: "abc"
 layout: archive
 permalink: categories/linux
 author_profile: true
