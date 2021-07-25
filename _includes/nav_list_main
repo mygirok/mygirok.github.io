@@ -8,14 +8,11 @@
           <ul>        
               <li><a href="https://mygirok.github.io/">All posts ({{sum}})</a></li>   
           </ul>
-        <span class="nav__sub-title">Linux</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "linux" %}
-                        <li><a href="/categories/linux">{{category[0]}} ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+          <ul>
+            {% for category in site.categories %}
+              <li><a href="/categories/{{category[0]}}">{{category[0]}} ({{category[1].size}})</a></li>
+            {% endfor %}
+          </ul>
       </li>
   </ul>
 </nav>
