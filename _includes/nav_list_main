@@ -10,7 +10,7 @@
           </ul>
           <ul>
             {% for category in site.categories %}
-              <li class="categoryName"><a href="/categories/{{category[0]}}">{{category[0]}} ({{category[1].size}})</a></li>
+              <li><a href="/categories/{{category[0]}}" class="categoryName">{{category[0]}} ({{category[1].size}})</a></li>
             {% endfor %}
           </ul>
       </li>
