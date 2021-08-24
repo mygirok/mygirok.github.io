@@ -17,10 +17,8 @@ toc_sticky: true
 ## Downcasting (as! as?)
 - Parent instance as! child class
 > Return to primitive type
-
 > Use when you are confident that you will succeed
 
 - Parent instance as? child class
 > Return to optional type
-
 > Use if you are unsure of success
