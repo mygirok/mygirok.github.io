@@ -13,6 +13,7 @@ toc_sticky: true
 
 ## Extension
 - add property
+
 ```swift
 // Adding property to the standard data-type double structure.
 extension Double {
