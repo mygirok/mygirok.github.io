@@ -15,6 +15,7 @@ toc_sticky: true
 - add property
 
 ```swift
+
 // Adding property to the standard data-type double structure.
 extension Double {
     var squared: Double {
@@ -28,4 +29,5 @@ print(3.0.squared)
 
 // 9.0
 // 9.0
+
 ```

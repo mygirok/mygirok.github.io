@@ -13,8 +13,6 @@
             {% for category in site.categories %}
             {% if category[0] == "cpp" %}
               <li><a href="/categories/{{category[0]}}" class="categoryName">c++ ({{category[1].size}})</a></li>
-            {% elseif category[0] == "swiftTip" %}
-              <li><a href="/categories/{{category[0]}}" class="categoryName">swift_tip ({category[1].size}})</a></li>
             {% else %} 
               <li><a href="/categories/{{category[0]}}" class="categoryName">{{category[0]}} ({{category[1].size}})</a></li>
             {% endif %}
