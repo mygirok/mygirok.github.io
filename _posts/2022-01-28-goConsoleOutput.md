@@ -26,15 +26,14 @@ func main() {
 ## Comment
 
 - /\* \*/
-
-```
-/*
-It is a block annotation space and is not affected by program execution.
-*/
-```
-
 - //
 
-```
-// One line comment.
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello World!") // One line comment.
+}
 ```
