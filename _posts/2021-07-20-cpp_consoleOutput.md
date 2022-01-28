@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "C++"
+title: "[C/C++] Console Output"
 
 categories:
   - cpp
@@ -11,12 +11,40 @@ toc: true
 toc_sticky: true
 ---
 
-## yum update and getting repl
-`sudo yum install epel-release`
-```html
-sudo yum update -y
-````
-## intall nginx(Web server)
-``
-vim /etc/yum.repos.d/nginx.repo
-``
+## printf()
+
+```c++
+#include <cstdio>
+
+int main(void)
+{
+
+  printf("Hello World!");
+  return 0;
+}
+```
+
+`output: Hello Word!`
+
+## Debugging
+
+`The process of making the program into an error-free sentence.`
+
+## Comment
+
+- /\* \*/
+- //
+
+```c++
+/*
+It is a block annotation space and is not affected by program execution.
+*/
+#include <cstdio>
+
+int main(void)
+{
+  printf("Hello World!"); // One line comment.
+
+  return 0;
+}
+```
