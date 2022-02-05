@@ -32,7 +32,7 @@ int main(void)
 int main(void)
 {
   printf("A%3dB\n", 1); // A  1B
-  printf("A%3dB\n", 1); // A1  B
+  printf("A%-3dB\n", 1); // A1  B
 
   return 0;
 }
