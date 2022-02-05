@@ -1,0 +1,39 @@
+---
+layout: single
+title: "[C/C++] Integer Type"
+
+categories:
+  - cpp
+tags:
+  - [cpp, c, c++]
+
+toc: true
+toc_sticky: true
+---
+
+## Integer Type Print
+
+```c++
+#include <stdio.h>
+
+int main(void)
+{  
+  printf("10 + 20\n"); // 10 + 20
+  printf("%d\n", 10 + 20); // 30
+
+  return 0;
+}
+```
+
+## Integer Type Formatting
+```c++
+#include <stdio.h>
+
+int main(void)
+{
+  printf("A%3dB\n", 1); // A  1B
+  printf("A%3dB\n", 1); // A1  B
+
+  return 0;
+}
+```

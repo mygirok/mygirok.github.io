@@ -14,7 +14,7 @@ toc_sticky: true
 ## printf()
 
 ```c++
-#include <cstdio>
+#include <stdio.h>
 
 int main(void)
 {
@@ -39,7 +39,7 @@ int main(void)
 /*
 It is a block annotation space and is not affected by program execution.
 */
-#include <cstdio>
+#include <stdio.h>
 
 int main(void)
 {
@@ -50,16 +50,16 @@ int main(void)
 ```
 
 ## Escape Sequence
-|Escape|function|
-|---|---|
-|\n|New Line|
-|\r|Carriage Return|
-|\b|Back Space|
-|\t|Tab|
-|\a|Alarm|
+Escape|function
+---|---
+\n|New Line
+\r|Carriage Return
+\b|Back Space
+\t|Tab
+\a|Alarm
 
 ```c++
-#include <cstdio>
+#include <stdio.h>
 int main(void)
 {
   printf("Hello World!");
