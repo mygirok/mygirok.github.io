@@ -48,3 +48,23 @@ int main(void)
   return 0;
 }
 ```
+
+## Escape Sequence
+|Escape|function|
+|---|---|
+|\n|New Line|
+|\r|Carriage Return|
+|\b|Back Space|
+|\t|Tab|
+|\a|Alarm|
+
+```c++
+#include <cstdio>
+int main(void)
+{
+  printf("Hello World!");
+  printf("Hello World!\n");
+  printf("\n");
+  return 0;
+}
+```
