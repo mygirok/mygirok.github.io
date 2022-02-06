@@ -12,8 +12,6 @@ toc_sticky: true
 ---
 
 ## Floating Point Type Print
-- lf%
-
 ```c++
 #include <stdio.h>
 
