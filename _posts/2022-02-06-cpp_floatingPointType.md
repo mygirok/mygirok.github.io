@@ -13,6 +13,7 @@ toc_sticky: true
 
 ## Floating Point Type Print
 - lf%
+
 ```c++
 #include <stdio.h>
 
@@ -26,6 +27,7 @@ int main(void)
   return 0;
 }
 ```
+
 - `%lf` &nbsp;&nbsp;&nbsp; : Round off to the 7th decimal place.
 - `%.2lf` : Round off to the 3th decimal place.
 - `%.0lf` &nbsp;: Round off to the first decimal place.
