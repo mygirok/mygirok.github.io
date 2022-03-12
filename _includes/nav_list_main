@@ -15,7 +15,7 @@
         {% for category in site.categories %} {% if category[0] == "cpp" %}
         <li>
           <a href="/categories/{{ category[0] }}" class="categoryName">
-            c/c++ ({{ category[1].size }})
+            c++ ({{ category[1].size }})
           </a>
         </li>
         {% else %}
