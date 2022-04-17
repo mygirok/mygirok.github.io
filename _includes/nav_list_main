@@ -18,6 +18,12 @@
             c++ ({{ category[1].size }})
           </a>
         </li>
+        {% else if category[0] == "os" %}
+        <li>
+          <a href="/categories/{{ category[0] }}" class="categoryName">
+            operating system ({{ category[1].size }})
+          </a>
+        </li>
         {% else %}
         <li>
           <a href="/categories/{{ category[0] }}" class="categoryName">
