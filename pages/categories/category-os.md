@@ -1,5 +1,5 @@
 ---
-title: "operating system"
+title: "os"
 layout: archive
 permalink: categories/operating system
 author_profile: true
