@@ -1,3 +1,3 @@
 ## Blog
 
-<a href="https://mygirok.github.io" target="_blank">
+[https://mygirok.github.io](https://mygirok.github.io){:target="_blank"}
